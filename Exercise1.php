@@ -3,16 +3,16 @@
 
 class Employee {
 
-    private $name;
-    private $salary;
+    private string $name;
+    private float $salary;
 
-    public function __construct($name, $salary) {
+    public function __construct(string $name, float $salary) {
         $this->name = $name;
         $this->salary = $salary;
     }
 
   
-    public function printInfoEmployee() {
+    public function printInfoEmployee(): void {
         echo "Employee Name: " . $this->name . PHP_EOL;
 
         if($this->salary > 6000) {
