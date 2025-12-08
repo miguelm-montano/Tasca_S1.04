@@ -4,19 +4,19 @@
 class Shape {
 
     private float $height;
-    private float $wide;
+    private float $width;
 
-    public function __construct(float $height, float $wide) {
+    public function __construct(float $height, float $width) {
         $this-> height = $height;
-        $this-> wide = $wide;
+        $this-> width = $width;
     }
 
     public function getHeight(): float {
         return $this-> height;
     }
 
-    public function getWide(): float {
-        return $this-> wide;
+    public function getWidth(): float {
+        return $this-> width;
     }
 
     public function calculateArea() {

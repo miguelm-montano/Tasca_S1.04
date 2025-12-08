@@ -6,6 +6,5 @@ Introduction to OOP for creating our own data types.
 
 ## Tools
 
-PHP
-
-## Tools
+- PHP
+- Visual Studio Code

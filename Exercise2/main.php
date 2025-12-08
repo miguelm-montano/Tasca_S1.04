@@ -1,7 +1,7 @@
 <?php
 
-require_once "Rectangle.php";
-require_once "Triangle.php";
+require_once "Shapes/Rectangle.php";
+require_once "Shapes/Triangle.php";
 
 
 $triangle = new Triangle(10, 5);
